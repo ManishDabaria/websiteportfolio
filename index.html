@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Manish Dabaria — Full-Stack Developer & AI Engineer</title>
+    <meta
+      name="description"
+      content="Manish Dabaria is a Computer Science Engineering student at JECRC University building scalable web applications and AI-powered products with React, Node.js, LLMs and RAG."
+    />
+    <meta name="keywords" content="Manish Dabaria, Full-Stack Developer, AI Engineer, Generative AI, MERN, React, Node.js, RAG, LLM, JECRC University, Jaipur, portfolio" />
+    <meta name="author" content="Manish Dabaria" />
+    <meta name="theme-color" content="#07080c" media="(prefers-color-scheme: dark)" />
+    <meta name="theme-color" content="#fafafa" media="(prefers-color-scheme: light)" />
+    <link rel="canonical" href="https://manishdabaria.vercel.app/" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Manish Dabaria" />
+    <meta property="og:title" content="Manish Dabaria — Full-Stack Developer & AI Engineer" />
+    <meta property="og:description" content="Building intelligent solutions through code. Full-stack apps, LLMs, RAG and Generative AI." />
+    <meta property="og:url" content="https://manishdabaria.vercel.app/" />
+    <meta property="og:image" content="https://manishdabaria.vercel.app/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Manish Dabaria — Building Intelligent Solutions Through Code" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Manish Dabaria — Full-Stack Developer & AI Engineer" />
+    <meta name="twitter:description" content="Building intelligent solutions through code. Full-stack apps, LLMs, RAG and Generative AI." />
+    <meta name="twitter:image" content="https://manishdabaria.vercel.app/og-image.png" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Manish Dabaria",
+        "jobTitle": "Full-Stack Developer & AI Engineer",
+        "url": "https://manishdabaria.vercel.app/",
+        "alumniOf": { "@type": "CollegeOrUniversity", "name": "JECRC University" },
+        "address": { "@type": "PostalAddress", "addressLocality": "Jaipur", "addressRegion": "Rajasthan", "addressCountry": "IN" },
+        "knowsAbout": ["Full-Stack Development", "Artificial Intelligence", "Machine Learning", "Generative AI", "RAG", "LLMs"]
+      }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Geist:wght@300..800&family=Geist+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Apply saved theme before paint to avoid a flash -->
+    <script>
+      (function () {
+        try {
+          var t = new URLSearchParams(location.search).get('theme') || localStorage.getItem('theme');
+          if (t !== 'light' && t !== 'dark') t = 'dark'; // dark by default
+          document.documentElement.classList.toggle('dark', t === 'dark');
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body>
+    <noscript>This portfolio needs JavaScript enabled to run.</noscript>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
